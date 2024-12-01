@@ -1,0 +1,80 @@
+name: left_device
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.0.1+3
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  riverpod: ^2.3.6
+  flutter_riverpod: ^2.3.6
+  go_router: ^8.0.1
+  freezed: ^2.3.5
+  freezed_annotation: ^2.2.0
+  riverpod_annotation: ^2.1.1
+  json_annotation: ^4.8.1
+  uuid: ^3.0.7
+  share_plus: ^7.0.2
+  flutter_svg: ^2.0.7
+  flutter_launcher_icons: ^0.13.1
+  firebase_auth: ^4.9.0
+  shared_preferences: ^2.2.2
+  app_settings: ^5.1.1
+  http: ^1.2.2
+  drift: 2.15.0
+  sqlite3_flutter_libs: 0.5.20
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  sqlite3: ^2.4.6
+  qr_code_scanner: ^1.0.1
+  flutter_secure_storage: ^9.2.2
+  cryptography: ^2.7.0
+  connectivity_plus: ^6.0.5
+  purchases_flutter: 6.20.0
+  google_mobile_ads: 5.1.0
+  async_preferences: ^1.0.1
+  app_tracking_transparency: ^2.0.6
+  url_launcher: ^6.3.1
+  flutter_blue_plus: ^1.33.5
+  easy_loading_button: ^0.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.11
+  riverpod_generator: ^2.2.3
+  json_serializable: ^6.7.0
+  drift_dev: ^2.15.0
+
+
+flutter:
+
+  fonts:
+     - family: Kaisei_Decol
+       fonts:
+         - asset: assets/fonts/Kaisei_Decol/KaiseiDecol-Bold.ttf
+         - asset: assets/fonts/Kaisei_Decol/KaiseiDecol-Regular.ttf
+         - asset: assets/fonts/Kaisei_Decol/KaiseiDecol-Medium.ttf
+     - family: Noto_Sans_JP
+       fonts:
+         - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Bold.ttf
+         - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Regular.ttf
+         - asset: assets/fonts/Noto_Sans_JP/NotoSansJP-Medium.ttf
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
